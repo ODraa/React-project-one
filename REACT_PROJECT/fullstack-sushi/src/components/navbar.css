@@ -1,0 +1,40 @@
+:root {
+    --nav-bg-color: #fdfdfd11;
+}
+
+.navbar .navbar-brand {
+    font-size: 3rem;
+    /* font-weight: 500; */
+    color: white !important;
+}
+
+.navbar-nav {
+    /* Sposta la lista a destra */
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 3rem;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: larger;
+}
+
+.navbar-nav .nav-link:hover {
+    /* color: var(--bs-primary); */
+    color: #4F81C2;
+}
+
+.navbar-toggler {
+    border: 2px solid white !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}

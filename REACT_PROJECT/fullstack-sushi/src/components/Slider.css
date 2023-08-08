@@ -1,0 +1,12 @@
+.custom-carousel {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+    border-radius: 50px;
+    overflow: hidden; /*per arrotondare gli angoli anche durante la transizione*/
+}
+
+.custom-carousel img {
+    border-radius: 50px;
+}

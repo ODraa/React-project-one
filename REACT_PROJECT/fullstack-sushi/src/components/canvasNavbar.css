@@ -1,0 +1,113 @@
+.navbar {
+    background-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-size: 3rem;
+    /* font-weight: 500; */
+    color: white !important;
+}
+
+.navbar-nav {
+    /* Sposta la lista a destra */
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 3rem;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: larger;
+}
+
+/* .navbar-nav .nav-link:hover {
+    color: var(--bs-primary);
+    color: #4F81C2;
+} */
+
+.navbar-toggler {
+    border: 2px solid white !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* Imposta il colore del testo del dropdown menu */
+.navbar .nav-item .nav-link.dropdown-toggle {
+    color: white;
+}
+
+.navbar .nav-item.nav-link {
+    color: white !important;
+}
+
+.modal-open .offcanvas {
+    background-color: #15172a;
+    /* background-color: #212529; */
+    color: white;
+}
+
+.modal-open .offcanvas-title {
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.dropdown-menu.show {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.modal-open .dropdown-item {
+    background-color: #212529;
+    color: white;
+}
+
+.modal-open .dropdown-menu.show {
+    background-color: #212529;
+}
+
+.custom-title {
+    color: #fff !important;
+    font-size: 2rem !important;
+}
+
+.btn-close {
+    color: white !important;
+}
+
+.modal-open .offcanvas-body {
+    margin-top: 1rem;
+}
+
+.modal-open .offcanvas-body .nav-item {
+    margin-bottom: 1.5rem;
+}
+
+/* .modal-open .offcanvas-body .custom-button {
+    margin-top: auto;
+} */
+
+/* Imposta Flexbox per il contenitore Nav nell'Offcanvas.Body */
+.offcanvas-nav {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    height: 100%;
+}
+
+/* Imposta il margine superiore per spingere il bottone in fondo */
+.offcanvas-nav .custom-button {
+    margin-top: auto;
+}
+

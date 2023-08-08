@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url(images/bg19.jpg);
+  background-color: #000 !important;
+  /* background-size: 100% 130%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: 100vh;
+  
+}
+
+.container h1 {
+  color: white;
+  font-size: 5rem;
+  letter-spacing: 0.8vh;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 75vh;
+  /* Imposta l'altezza del contenitore come desiderato */
+}
